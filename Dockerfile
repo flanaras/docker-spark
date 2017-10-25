@@ -5,7 +5,7 @@ USER root
 ENV USER root
 
 # Spark dependencies-ish
-RUN zypper in -y wget curl which tar sudo openssh rsync hostname
+RUN zypper in -y wget curl which tar sudo openssh rsync hostname unzip
 
 # SSH keys
 ## Server
