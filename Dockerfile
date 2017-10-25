@@ -1,4 +1,4 @@
-FROM flanaras/opensuse-jre:leap-8
+FROM flanaras/docker-opensuse-java:leap-jre8
 MAINTAINER flanaras
 
 USER root
